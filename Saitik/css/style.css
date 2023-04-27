@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+}
+.windows{
+    width: 1280px;
+    margin: auto;
+}
+.header{
+    background-color: #ffffffe4;
+    position: fixed;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo_img{
+    height: 60px;
+    width: 130px;
+    margin: 10px;
+}
+.menu{
+    text-align: center;
+    margin: auto;
+}
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+.menu_list_ol{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+}
+.menu_link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.pdr>a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.button{
+    padding: 10px 20px 10px 20px;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: darkgreen;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.header_block{
+    background: url(https://yesmagazine.ru/image_load/fashionably/fashion_news/boardriders.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 300px 0 300px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header_block_text{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+
+    
+}
+.header_main_text{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.header_text{
+    font-style: italic;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.inf_wrapper{
+    display: flex;
+    border-bottom: solid 1px #111111;
+    margin-bottom: 50px;
+    
+}
+.inf_img{
+    height: 300px;
+    width: auto;
+    padding: 20px;
+    margin: 25px;
+}
+.inf_text{
+    margin: 25px;
+    
+}
+.inf_main_text{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.inf_main_text1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.maps{
+    width: 100%;
+    margin: auto;
+}
+.footer{
+    background-color: #111111;
+    padding: 20px;
+}
+.logo_f{
+    padding: 20px;
+   
+    border-radius: 50%;
+    margin: auto 0;
+}
+.menu_f{
+    display: flex;
+}
+.menu_list_f{
+    margin: 20px;
+}
+.copyr{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+.search{
+    display: flex;
+    text-align: center;
+    margin: 0 30px;
+}
+.but{
+    background-color: chartreuse;
+    margin: auto;
+    padding: 9px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    border: solid 1px #111111;
+}
+.ser_img{
+    height: 20px;
+    width: 20px;
+}
+.inp{
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+.inp>input{
+    height: 30px;
+    width: 380px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.adventure_main_text{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.adv_img{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+.adv_item_img{
+    height: 70px;
+    width: 70px;
+    margin: 20px auto;
+}
+.adv_item_img>img{
+    height: 70px;
+    width: 70px;
+}
+.adv_wrapper{
+    display: flex;
+    margin-bottom: 50px;
+}
+.adv_item{
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    border: #111111 1px solid;
+    border-radius: 20px;
+}
+.adv_item_text{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.adv_item_text1{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+.presents_main_text{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.pre_img{
+    height: 130px;
+    width: 130px;
+    text-align: center;
+}
+.pre_item_img{
+    
+    margin: 20px auto;
+}
+.pre_item_img>img{
+    height: 170px;
+    width: 250px;
+    border-radius: 10px;
+}
+.pre_wrapper{
+    display: flex;
+    margin-bottom: 50px;
+}
+.pre_item{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    border: #111111 1px solid;
+    border-radius: 20px;
+}
+.pre_item:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.pre_item_text{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.pre_item_text1{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
